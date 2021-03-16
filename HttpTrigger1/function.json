@@ -1,0 +1,13 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "type": "eventHubTrigger",
+      "name": "IoTHubMessages",
+      "direction": "in",
+      "eventHubName": "iothub-ehub-subsistema-3460464-b7ab981309",
+      "consumerGroup": "$Default",
+      "connection": "AzureEventHubConnectionString"
+    }
+  ]
+}
